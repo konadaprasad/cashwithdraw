@@ -1,0 +1,73 @@
+/* Write your CSS here */
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  padding: 50px;
+  font-family: 'roboto';
+}
+.inner-container {
+  background-color: #150b3e;
+  background-size: cover;
+  height: 500px;
+  width: 400px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  margin: 100px;
+}
+.para-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.para {
+  font-size: 16px;
+  height: 50px;
+  width: 50px;
+  border-radius: 30px;
+  background-color: #c7d2fe;
+  padding: 15px;
+  color: #7c3aed;
+  margin-right: 5px;
+}
+.para2 {
+  font-size: 18px;
+  color: #d4d2db;
+  font-weight: 500;
+  padding: 10px;
+}
+.balance-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.balance {
+  font-size: 18px;
+  color: #585076;
+  font-weight: 500;
+  padding-top: 5px;
+}
+.amount-container {
+  display: flex;
+  flex-direction: column;
+}
+.amount {
+  font-size: 24px;
+  color: #d4d2db;
+  font-weight: bold;
+}
+.rupees {
+  font-size: 12px;
+  color: #585076;
+  font-weight: 500;
+}
+.button-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: row;
+  list-style-type: none;
+  padding: 20px;
+}

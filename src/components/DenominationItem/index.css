@@ -1,0 +1,14 @@
+/* Write your CSS here */
+.button1 {
+  height: 50px;
+  color: #c4c4c4;
+  background-color: #382f5a;
+  width: 150px;
+  border-radius: 5px;
+  cursor: pointer;
+  outline: none;
+  border-color: #c4c4c4;
+  border-style: solid;
+  border-width: 1px;
+  margin: 5px;
+}
